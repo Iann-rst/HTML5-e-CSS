@@ -1,0 +1,94 @@
+<!--
+  Flex-shrink:
+  **É a propriedade que estabelece a capacidade de
+  **redução ou compressão do tamanho de um item.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fundamentos - flex shrink</title>
+  <style>
+    .container{
+      display: flex;
+      border: 2px solid black;
+      max-width: 350px;
+    }
+
+    .item{
+      margin: 5px;
+      background: orangered;
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .s1{
+      flex-shrink: 1;
+    }
+
+    .s0{
+      flex-shrink: 0;
+      flex-basis: 100px;
+    }
+
+    .s2{
+      flex-shrink: 2;
+      flex-basis: 100px;
+    }
+
+    .s3{
+      flex-shrink: 3;
+      flex-basis: 100px;
+    }
+
+    .fg-1{
+      flex-grow: 1;
+    }
+  </style>
+</head>
+<body>
+  <h2>Flex shrink 1</h2> 
+  <div class="container">
+    <div class="item s1 fg-1">a</div>
+    <div class="item s1 fg-1">b</div>
+    <div class="item s1 fg-1">c</div>
+    <div class="item s1 fg-1">d</div>
+    <div class="item s1 fg-1">e</div>
+  </div>
+
+  <h2>Flex shrink 1 com conteúdo</h2> 
+  <div class="container">
+    <div class="item s1 fg-1">a</div>
+    <div class="item s1 fg-1">The dasdsada ad asdasadasdasda </div>
+    <div class="item s1 fg-1">c</div>
+    <div class="item s1 fg-1">d</div>
+  </div>
+
+  <h2>Flex shrink 0 flex-basis 100px</h2> 
+  <div class="container">
+    <div class="item s0 fg-1">A</div>
+    <div class="item s0 fg-1">The dasdsada  </div>
+    <div class="item s0 fg-1">The dasdsada</div>
+    <div class="item s0 fg-1">D</div>
+  </div>
+
+  <h2>Flex shrink 2 flex-basis 100px</h2> 
+  <div class="container">
+    <div class="item s2 fg-1">A</div>
+    <div class="item s2 fg-1">The dasdsada  </div>
+    <div class="item s2 fg-1">The dasdsada</div>
+    <div class="item s2 fg-1">D</div>
+  </div>
+
+  <h2>Flex shrink 3 flex-basis 100px</h2> 
+  <div class="container">
+    <div class="item s2 fg-1">A</div>
+    <div class="item s2 fg-1">The dasdsada  </div>
+    <div class="item s2 fg-1">The dasdsada</div>
+    <div class="item s3 fg-1">D</div>
+  </div>
+</body>
+</html>
