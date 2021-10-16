@@ -6,3 +6,4 @@ Aplicando os conceitos de FlexBox vistos nas aula 1 e aula 2:
 
 ## Visualização da Landing Page
 
+![Flex-Turismos](https://user-images.githubusercontent.com/48128325/137602068-7d71fea5-e283-46f9-8741-ced4ac2ff9d8.gif)
