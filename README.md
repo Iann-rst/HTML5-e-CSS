@@ -12,11 +12,11 @@ Apresentar os fundamentos e aplicações da propriedade flexbox na criação de 
 
 ## Percurso
 * Aula 1:
-  * Introdução ao Flexbox;
+  * [Introdução ao Flexbox](https://github.com/Iann-rst/HTML5-e-CSS/tree/main/Aula%201%20-%20Introdução%20ao%20Flexbox);
 * Aula 2:
-  * Fundamentos do Flexbox;
+  * [Fundamentos do Flexbox](https://github.com/Iann-rst/HTML5-e-CSS/tree/main/Aula%202%20-%20Fundamentos%20do%20Flexbox);
 * Aula 3:
-  * Projeto integrador;
+  * [Projeto integrador](https://github.com/Iann-rst/HTML5-e-CSS/tree/main/Aula%203%20-%20Projeto%20Integrador);
 
 ## Links Úteis
 [Digital Innovation One](https://web.digitalinnovation.one/home).
