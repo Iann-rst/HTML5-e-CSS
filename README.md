@@ -12,7 +12,7 @@ Apresentar os fundamentos e aplicações da propriedade flexbox na criação de 
 
 ## Percurso
 * Aula 1:
-  * Introdução ao Flexbox;
+  * [Introdução ao Flexbox](https://github.com/Iann-rst/HTML5-e-CSS/tree/main/Aula%201%20-%20Introdução%20ao%20Flexbox);
 * Aula 2:
   * Fundamentos do Flexbox;
 * Aula 3:
