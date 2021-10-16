@@ -1,0 +1,88 @@
+<!--
+  FLEX: Esta propriedade é um atalho ou abreviação
+  de escrita para as propriedades: grow, shrink e basis.
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fundamentos - flex</title>
+  <style>
+
+    .container{
+      display: flex;
+      border: 2px solid black;
+      max-width: 400px;
+    }
+
+    .item{
+      background: coral;
+      color: white;
+      font-size: 24px;
+      text-align: center;
+      margin: 5px;
+    }
+
+    .flex-1{
+      flex: 1;
+      /*
+        grow = 1
+        shrink =1
+        basis = 0
+      */
+    }
+
+    .flex-2{
+      flex: 2;
+      /*
+        grow = 2
+        shrink =1
+        basis = 0
+      */
+    }
+
+  </style>
+</head>
+<body>
+  <h2>Sem flex</h2>
+  <div class="container">
+    <div class="item ">a</div>
+    <div class="item ">b</div>
+    <div class="item ">c</div>
+    <div class="item ">d</div>
+    <div class="item ">e</div>
+  </div>
+
+  <h2>Com flex = 1</h2>
+  <div class="container">
+    <div class="item flex-1">a</div>
+    <div class="item flex-1">bbbb</div>
+    <div class="item flex-1">cc</div>
+    <div class="item flex-1">d</div>
+    <div class="item flex-1">ee</div>
+  </div>
+
+  <h2>Com flex = 2</h2>
+  <div class="container">
+    <div class="item flex-1">a</div>
+    <div class="item flex-2">bbbb</div>
+    <div class="item flex-2">cc</div>
+    <div class="item flex-1">d</div>
+    <div class="item flex-1">ee</div>
+  </div>
+
+  <h2>Com flex = 2</h2>
+  <div class="container">
+    <div class="item flex-1">a</div>
+    <div class="item flex-1">bbbb</div>
+    <div class="item flex-1">cc</div>
+    <div class="item flex-1">d</div>
+    <div class="item flex-1">ee</div>
+  </div>
+</body>
+</html>
