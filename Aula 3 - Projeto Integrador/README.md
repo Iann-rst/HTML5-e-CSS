@@ -5,3 +5,4 @@ Aplicando os conceitos de FlexBox vistos nas aula 1 e aula 2:
 * Aula 2 - [Fundamentos do FlexBox](https://github.com/Iann-rst/HTML5-e-CSS/tree/main/Aula%202%20-%20Fundamentos%20do%20Flexbox).
 
 ## Visualização da Landing Page
+![teste2](https://user-images.githubusercontent.com/48128325/137596806-0d5abebd-2fc6-4b2a-8b96-d7d6b1ca1ffd.gif)
